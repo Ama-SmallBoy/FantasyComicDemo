@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0469CF7121E8929C008D43FF /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469CF6E21E8929C008D43FF /* JPEngine.m */; };
+		0469CF7221E8929C008D43FF /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 0469CF7021E8929C008D43FF /* JSPatch.js */; };
+		04A6F9B321EC76CE00711AD9 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 04A6F9B221EC76CE00711AD9 /* main.js */; };
+		04A6F9B821EC83A400711AD9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6F9B621EC83A400711AD9 /* FirstViewController.m */; };
+		04A6F9B921EC83A400711AD9 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A6F9B721EC83A400711AD9 /* FirstViewController.xib */; };
 		04D1DBEA21E88AAC00578C8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D1DBE921E88AAC00578C8B /* AppDelegate.m */; };
 		04D1DBED21E88AAC00578C8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D1DBEC21E88AAC00578C8B /* ViewController.m */; };
 		04D1DBF021E88AAC00578C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D1DBEE21E88AAC00578C8B /* Main.storyboard */; };
@@ -15,6 +20,7 @@
 		04D1DBF821E88AAF00578C8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D1DBF721E88AAF00578C8B /* main.m */; };
 		04D1DC0221E88AAF00578C8B /* FantasyComicDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D1DC0121E88AAF00578C8B /* FantasyComicDemoTests.m */; };
 		04D1DC0D21E88AAF00578C8B /* FantasyComicDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D1DC0C21E88AAF00578C8B /* FantasyComicDemoUITests.m */; };
+		5152637E36B6AE9C4231D26B /* libPods-FantasyComicDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2148A2E78BDEE0B762690A /* libPods-FantasyComicDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0469CF6E21E8929C008D43FF /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		0469CF6F21E8929C008D43FF /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		0469CF7021E8929C008D43FF /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+		04A6F9B221EC76CE00711AD9 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		04A6F9B521EC83A400711AD9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		04A6F9B621EC83A400711AD9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		04A6F9B721EC83A400711AD9 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		04D1DBE521E88AAC00578C8B /* FantasyComicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasyComicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D1DBE821E88AAC00578C8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04D1DBE921E88AAC00578C8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +64,9 @@
 		04D1DC0821E88AAF00578C8B /* FantasyComicDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasyComicDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D1DC0C21E88AAF00578C8B /* FantasyComicDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FantasyComicDemoUITests.m; sourceTree = "<group>"; };
 		04D1DC0E21E88AAF00578C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF10BA463417593FAC3126E /* Pods-FantasyComicDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyComicDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FantasyComicDemo/Pods-FantasyComicDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EC2148A2E78BDEE0B762690A /* libPods-FantasyComicDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FantasyComicDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF1D5BB45C679E96663753D /* Pods-FantasyComicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyComicDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FantasyComicDemo/Pods-FantasyComicDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5152637E36B6AE9C4231D26B /* libPods-FantasyComicDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0469CF6D21E8929C008D43FF /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				0469CF6F21E8929C008D43FF /* JPEngine.h */,
+				0469CF6E21E8929C008D43FF /* JPEngine.m */,
+				0469CF7021E8929C008D43FF /* JSPatch.js */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
 		04D1DBDC21E88AAC00578C8B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				04D1DC0021E88AAF00578C8B /* FantasyComicDemoTests */,
 				04D1DC0B21E88AAF00578C8B /* FantasyComicDemoUITests */,
 				04D1DBE621E88AAC00578C8B /* Products */,
+				DE37F913C92B502CF534147F /* Pods */,
+				2645BF2CB1DFE21F31A79BBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +130,13 @@
 		04D1DBE721E88AAC00578C8B /* FantasyComicDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04A6F9B221EC76CE00711AD9 /* main.js */,
+				0469CF6D21E8929C008D43FF /* JSPatch */,
 				04D1DBE821E88AAC00578C8B /* AppDelegate.h */,
 				04D1DBE921E88AAC00578C8B /* AppDelegate.m */,
+				04A6F9B521EC83A400711AD9 /* FirstViewController.h */,
+				04A6F9B621EC83A400711AD9 /* FirstViewController.m */,
+				04A6F9B721EC83A400711AD9 /* FirstViewController.xib */,
 				04D1DBEB21E88AAC00578C8B /* ViewController.h */,
 				04D1DBEC21E88AAC00578C8B /* ViewController.m */,
 				04D1DBEE21E88AAC00578C8B /* Main.storyboard */,
@@ -132,6 +166,23 @@
 			path = FantasyComicDemoUITests;
 			sourceTree = "<group>";
 		};
+		2645BF2CB1DFE21F31A79BBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC2148A2E78BDEE0B762690A /* libPods-FantasyComicDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE37F913C92B502CF534147F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEF1D5BB45C679E96663753D /* Pods-FantasyComicDemo.debug.xcconfig */,
+				5DF10BA463417593FAC3126E /* Pods-FantasyComicDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D1DC1121E88AAF00578C8B /* Build configuration list for PBXNativeTarget "FantasyComicDemo" */;
 			buildPhases = (
+				5707DE1AB72111AE3A5D18A1 /* [CP] Check Pods Manifest.lock */,
 				04D1DBE121E88AAC00578C8B /* Sources */,
 				04D1DBE221E88AAC00578C8B /* Frameworks */,
 				04D1DBE321E88AAC00578C8B /* Resources */,
@@ -236,8 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D1DBF521E88AAF00578C8B /* LaunchScreen.storyboard in Resources */,
+				04A6F9B921EC83A400711AD9 /* FirstViewController.xib in Resources */,
 				04D1DBF221E88AAF00578C8B /* Assets.xcassets in Resources */,
+				0469CF7221E8929C008D43FF /* JSPatch.js in Resources */,
 				04D1DBF021E88AAC00578C8B /* Main.storyboard in Resources */,
+				04A6F9B321EC76CE00711AD9 /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +312,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5707DE1AB72111AE3A5D18A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FantasyComicDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04D1DBE121E88AAC00578C8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				04D1DBED21E88AAC00578C8B /* ViewController.m in Sources */,
+				0469CF7121E8929C008D43FF /* JPEngine.m in Sources */,
+				04A6F9B821EC83A400711AD9 /* FirstViewController.m in Sources */,
 				04D1DBF821E88AAF00578C8B /* main.m in Sources */,
 				04D1DBEA21E88AAC00578C8B /* AppDelegate.m in Sources */,
 			);
@@ -433,6 +511,7 @@
 		};
 		04D1DC1221E88AAF00578C8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF1D5BB45C679E96663753D /* Pods-FantasyComicDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +528,7 @@
 		};
 		04D1DC1321E88AAF00578C8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF10BA463417593FAC3126E /* Pods-FantasyComicDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
